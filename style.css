@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin: 2rem 7rem 7rem 7rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 70vh;
+}
+body{
+    background-color:  hsl(30, 38%, 92%);
+}
+main img{
+   border-radius: 0.5rem 0 0 0.5rem;
+    float: right;
+    height: 70vh;  
+}
+#new-price{
+    color: hsl(158, 36%, 37%);
+}
+
+article{
+    padding-left: 1rem;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+}
+.buy-btn{
+    background-color:hsl(158, 36%, 37%) ;
+    border: none;
+    border-radius: 0.3rem;
+    width: 30%;
+    height: 5%;
+    color: white;
+   
+}
